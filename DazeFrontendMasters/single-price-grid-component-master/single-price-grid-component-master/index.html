@@ -3,25 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-  Join our community
+<body class="bg-blue-100 flex flex-col justify-center items-center">
+  <div class="bg-white flex flex-col rounded-t-lg w-3/4 p-12 mt-10 sm:w-10/12 md:w-10/12">
+  <h2 class="text-4xl font-bold text-blue-600">Join our community</h2>
 
-  30-day, hassle-free money back guarantee
+  <p class="mt-4 text-2xl text-yellow-600">30-day, hassle-free money back guarantee</p>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+  <p class="mt-4 text-xl text-gray-700">Gain access to our full library of tutorials along with expert code reviews. 
+  Perfect for any developers who are serious about honing their skills.</p>
+   </div>
 
+   <div class="flex flex-row w-9/12 text-green-100 sm:w-10/12 md:w-10/12">
+    <div class="bg-green-700 w-1/2 p-12">
   Monthly Subscription
 
   &dollar;29 per month
@@ -29,7 +27,8 @@
   Full access for less than &dollar;1 a day
 
   Sign Up
-
+  </div>
+<div class="bg-green-500 w-1/2 p-12">
   Why Us
 
   Tutorials by industry experts
@@ -39,12 +38,12 @@
   Community forum
   Flashcard decks
   New videos every week
-  
-  <footer>
+</div>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer>  -->
 </body>
 </html>
