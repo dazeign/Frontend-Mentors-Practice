@@ -24,7 +24,12 @@ body{
 body{
     background-color: hsl(0, 0%, 95%);
 }
+p{
+    margin-bottom: 1%;
+}
 .first{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 40%;
     margin: 5% 30% 0 30%;
@@ -36,13 +41,15 @@ body{
     margin-bottom: 5%;
     color: hsl(179, 62%, 43%)
 }
+
 .first p:nth-of-type(1){
-    font-size: 20px;
+    font-size: 22px;
     color: hsl(71, 73%, 54%)
 }
 .first p:nth-of-type(2){
-    font-size: 18px;
+    font-size: 20px;
     color: hsl(200, 3%, 19%);
+    line-height: 40px;
 }
 .second{
     background-color: hsl(179, 62%, 43%);
