@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
+body{
+    font-family: 'Karla', sans-serif;
+}
+.join{
+    color: hsl(179, 62%, 43%)
+}
+.thirty{
+    color: hsl(71, 73%, 54%);
+}
+.gain{
+    color: hsl(218, 22%, 67%);
+}
+.left{
+    color: hsl(204, 43%, 93%);
+    background-color:hsl(179, 62%, 43%);
+}
+.right{
+    background-color: rgb(79, 201, 199);
+    color: hsl(204, 43%, 93%);
+}
+
+/* No tailwind Styles */
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.first{
+    background-color: white;
+    width: 40%;
+    margin: 5% 30% 5% 30%;
+    padding: 1.5% 3%;
+    border-radius: 10px 10px 0 0;
+}
+.first h2{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.first p:nth-child(1){
+    font-size: 50px;
+}
