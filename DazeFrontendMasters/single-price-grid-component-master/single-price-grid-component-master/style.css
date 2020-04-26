@@ -69,7 +69,7 @@ p{
 }
 
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     body{
         background-color: red;
         flex-direction: row;
@@ -80,7 +80,6 @@ p{
         margin-right: 5%; 
     }
 }
-
 .second{
     flex-direction: row;
 }
