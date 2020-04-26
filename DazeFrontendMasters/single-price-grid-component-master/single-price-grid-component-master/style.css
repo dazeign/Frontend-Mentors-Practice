@@ -67,6 +67,8 @@ p{
     padding: 2%;
     font-size: ;
 }
+
+
 @media (min-width: 320px) {
     body{
         background-color: red;
@@ -78,6 +80,7 @@ p{
         margin-right: 5%; 
     }
 }
+
 .second{
     flex-direction: row;
 }
