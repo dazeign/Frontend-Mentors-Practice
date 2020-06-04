@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    background: var(--SoftestRed);
+    height: 100vh;
+}
+*{
+    /* border: 0.2px solid red; */
+}
+.desktopHero{
+    display: none;
+}
+:root{
+    --DesaturatedRed: hsl(0, 36%, 70%);
+    --DarkGrayishRed: hsl(0, 6%, 24%);
+    --SoftRed: hsl(0, 93%, 68%);
+    --SoftestRed: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main section:first-child{
+    display: block;
+}
+main section:nth-child(1){
+    padding: 6% 10%;
+}
+main section:nth-child(2) img{
+    width: 100%;
+    height: auto;
+}
+main section:nth-child(3){
+    margin-top: 3%;
+}
+main section:nth-child(3) p{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 200;
+    margin-bottom: 5%;
+    letter-spacing: 1rem;
+    text-align: center;
+    color: var(--DesaturatedRed);
+}
+
+main section:nth-child(3) span{
+    font-weight: 600;
+    color: var(--DarkGrayishRed);
+}
+main section:nth-child(4) p{
+    margin: 0 15% 8% 15%;
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--DesaturatedRed);
+}
+.input{
+    display: block;
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid var(--DarkGrayishRed);
+}
+button .button{
+    display: absolute;
+    right: 10%;
+}
+main section:nth-child()
+
+@media screen and (min-width: 325px){
+    .mobileHero{
+        display: hidden;
+    }
+}
