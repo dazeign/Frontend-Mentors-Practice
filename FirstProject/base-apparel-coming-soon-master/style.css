@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+@media screen and (min-width: 325px){
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     background: var(--SoftestRed);
-    height: 100vh;
+    /* height: 100vh; */
 }
 *{
     /* border: 0.2px solid red; */
@@ -31,20 +32,17 @@ main section{
     align-items: center;
     justify-content: center;
 }
-main section:first-child{
+.heroLogo{
+    padding: 6% 10%;
     display: block;
 }
-main section:nth-child(1){
-    padding: 6% 10%;
-}
-main section:nth-child(2) img{
+.heroImages, .mobileHero{
     width: 100%;
-    height: auto;
 }
-main section:nth-child(3){
+.Text{
     margin-top: 3%;
 }
-main section:nth-child(3) p{
+.WeText p{
     font-size: 3em;
     text-transform: uppercase;
     margin-left: 15%;
@@ -56,11 +54,11 @@ main section:nth-child(3) p{
     color: var(--DesaturatedRed);
 }
 
-main section:nth-child(3) span{
+.WeText span{
     font-weight: 600;
     color: var(--DarkGrayishRed);
 }
-main section:nth-child(4) p{
+.HelloText p{
     margin: 0 15% 8% 15%;
     text-align: center;
     line-height: 1.8rem;
@@ -72,15 +70,64 @@ main section:nth-child(4) p{
     height: 45px;
     border-radius: 25px;
     border: 1px solid var(--DarkGrayishRed);
+    background: var(--SoftestRed);
 }
 button .button{
     display: absolute;
     right: 10%;
 }
-main section:nth-child()
-
-@media screen and (min-width: 325px){
+}
+@media screen and (min-width: 1440px){
+    body{
+        background: url(images/bg-pattern-desktop.svg);
+    }
+    *{
+        border: 1px solid red;
+    }
+    .heroImages{
+        display: inline-flex;
+        width: 42%;
+    }
+    .desktopHero{
+        display: inline;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 42%;
+        height: 100vh;
+    }
+    
     .mobileHero{
-        display: hidden;
+        display: none;
+    }
+    .Text, .heroLogo{
+        width: 45%;
+    }
+    .heroLogo{
+        padding: 0;
+        margin: 5% 0 0 12%;
+    }
+    .Text{
+
+    }
+    main{
+        justify-content: flex-start;
+    }
+    .WeText p{
+        text-align: left;
+        width: 45%;
+        margin-left: 10%;
+        margin-right: 12%;
+        font-size: 4.5em;
+        line-height: 6rem;
+    }
+    .WeText span{
+        line-height: 5rem;
+    }
+    .HelloText{
+        margin: 5% 5% 0 12%;
+        text-align: left;
+        justify-content: left;
+        width: 100%;
     }
 }
