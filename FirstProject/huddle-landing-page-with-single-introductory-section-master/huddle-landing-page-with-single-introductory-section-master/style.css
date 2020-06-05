@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: .2px solid salmon; */
+}
+body{
+    background: url(images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    padding: 10% 0 4% 10%;
+}
+header img{
+    width: 165px;
+}
+.mockup{
+    width: 80vw;
+    margin: 10%;
+}
+.mockup img{
+    width: 100%;
+}
+.text{
+    margin: 5% 10% 5% 10%;
+    color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.small{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1.6em;
+    margin-bottom: 2vw;
+}
+.regButton{
+    color: hsl(257, 40%, 49%);
+    background-color: #FDFDFD;
+    height: 5vh;
+    width: 50vw;
+    border-radius: 25px;
+    margin: 5% 20% 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    margin: 0 5% 0 5%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.fa-twitter,
+.fa-instagram,
+.fa-facebook{
+    width: 24px;
+}
+
+@media screen and (min-width: 1440px){
+    *{
+        /* border: .2px solid salmon; */
+    }
+    body{
+        background: url(images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        /* flex-direction: row; */
+    }
+    header{
+        width: 100vw;
+        height: 0px;
+        padding: 2.5% 0 5% 5%;
+    }
+    header img{
+        width: 165px;
+    }
+    .body{
+        display: flex;
+        flex-direction: row;
+    }
+    .mockup{
+        width: 45%;
+        margin: 5% 5% 0 5%;
+    }
+    .mockup img{
+        width: 106%;
+    }
+    .text{
+        margin: -5% 5% 0 0;
+        width: 40%;
+        color: #FDFDFD;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading{
+        font-size: 3em;
+        width: 80%;
+        text-align: left;
+        letter-spacing: 0.05rem;
+        line-height: 4rem;
+        /* margin-bottom: 5%; */
+    }
+    .small{
+        font-size: 1.45em;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 0.05em;
+        line-height: 1.6em;
+        margin-bottom: 2vw;
+    }
+    .regButton{
+        height: 7%;
+        width: 30%;
+        border-radius: 30px;
+        display: flex;
+        font-size: 1.2em;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+}
+
+
+
+
